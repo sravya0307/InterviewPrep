@@ -1,3 +1,6 @@
+//Finding the nearest 0's with the concept of BFS, starting with pushing all the 0's into the queue
+
+
 class Solution {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
