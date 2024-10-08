@@ -3,7 +3,7 @@ visited array but can be in the different direction, and not form cycle.
 2) So, in this approach it's important to track the path traversed until now, and check if the neighbour being visited is in the path traversed or is just visited.
 3) If it is in the path, then there is a cycle, to track this, along with the traditional DFS, we take an extra pathvis array to track the path being traversed.
 
-T(C)- O(NXN)
+T(C)- O(V+E)
 S(C)- O(NXN)- adjlist, prerequisites, stack space, vis, pathvis
 
 
