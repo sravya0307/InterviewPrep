@@ -1,13 +1,13 @@
+/*
 1) Identify distinct connected components, for the connected components using bfs, 
 2) after identifying them, for the distinct ones, giving the same index for the ones in the same connected component
 3) Using an unordered_map to store the i,j values of same connected components
 4) Now while traversing, removing the min of x and min of y from each x and y of a component
 5) using a set to identify distinct ones
-
 T(C)= O(MXN)
 S(C)= O(MXN)
+*/
 
-CODE:
 class Solution {
   public:
     void bfs(int k,int l,vector<vector<int>>&grid,int c){
