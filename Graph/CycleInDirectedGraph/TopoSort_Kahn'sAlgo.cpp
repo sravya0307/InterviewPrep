@@ -1,3 +1,4 @@
+/*
 1) Topological sort also known as Kahn's algorithm, can also be used for the cycle detection in directed Graph
 2) Topo sort, focuses on the concept of indegree
 3) Indegree is the number of edges coming into a node, if the indegree of a node is 0, that means no node is depending on the current node, hence it can safely be removed.
@@ -9,8 +10,9 @@
 
 T(C)- O(V+E)-queue+O(n*n)-prerequisites
 S(C)- O(n*n)- adjlist, n-Queue, n-vector-indegree
+*/
 
-CODE:
+
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
