@@ -1,9 +1,8 @@
-#Given a begin word, end word adn a wordlist, the shortest transformation sequence of begin to end via wordlist, every word in the sequence is one letter different from the previous one
+/*Given a begin word, end word adn a wordlist, the shortest transformation sequence of begin to end via wordlist, every word in the sequence is one letter different from the previous one
 
 T(C)- n*26*wordlength*log(n)
 S(C)- O(n)
-
-CODE:
+*/
 
 class Solution {
 public:
