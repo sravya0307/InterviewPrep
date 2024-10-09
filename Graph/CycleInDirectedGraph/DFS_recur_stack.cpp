@@ -1,3 +1,4 @@
+/*
 1) This Approach is different from the one in the cycle in Undirected Graph, since, here there can be a case, where, the neighbour of current node can be present in the
 visited array but can be in the different direction, and not form cycle.
 2) So, in this approach it's important to track the path traversed until now, and check if the neighbour being visited is in the path traversed or is just visited.
@@ -5,9 +6,9 @@ visited array but can be in the different direction, and not form cycle.
 
 T(C)- O(V+E)
 S(C)- O(NXN)- adjlist, prerequisites, stack space, vis, pathvis
+*/
 
 
-CODE:
 class Solution {
 public:
     bool dfs(int n,vector<vector<int>>&adjlist,vector<int>&vis,vector<int>&pathvis,int curr){
