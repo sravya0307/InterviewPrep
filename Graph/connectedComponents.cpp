@@ -1,11 +1,11 @@
-#Bfs approach
+/*Bfs approach
 1) check adjacent elements via the adj matrix, by scanning the row, mark in the visited matrix
 2) repeat until all the elements are traversed
 
 T(C)- O(MXN)
 S(C)- O(MXN) - adj matrix, visited array- O(N), queue
+*/
 
-CODE:
 class Solution {
   public:
     void bfs(vector<vector<int>>&adj, int V,vector<int>&vis,int m){
