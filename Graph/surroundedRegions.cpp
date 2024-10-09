@@ -1,11 +1,11 @@
-//Given a matrix with X's and O's, change the surrounded regions of O's to X's, a surrounded region of O's is entirely surrounded by X's
+/*Given a matrix with X's and O's, change the surrounded regions of O's to X's, a surrounded region of O's is entirely surrounded by X's
 
-//Approach: Check for the non-surrounded regions using bfs traversal, starting from the Os present in the border, the rest of the Os belong to surrounded regions
+Approach: Check for the non-surrounded regions using bfs traversal, starting from the Os present in the border, the rest of the Os belong to surrounded regions
 
-//Time Complexity: O(M*N)
-//Space Complexity: O(M*N)
+Time Complexity: O(M*N)
+Space Complexity: O(M*N)
+*/
 
-CODE:
 
 class Solution {
 public:
