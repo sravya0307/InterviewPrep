@@ -1,11 +1,13 @@
-#Using bfs or dfs
+/*
+Using bfs or dfs
 1) Check if any neighbor of a node other than the parent node is present in the visited array, if so, there is a cycle in the graph
 2) Same process with bfs or dfs
 
 T(C)- O(MXN)
 S(C)- O(MXN)- Queue/Stack, Grid, vis
+*/
 
-CODE:
+
 class Solution {
   public:
     bool bfs(vector<int>adj[],int V,int s,vector<int>&vis){
