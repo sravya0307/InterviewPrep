@@ -1,3 +1,4 @@
+/*
 1) Graph Coloring
 2) Bfs
 3) A Bipartite graph is something which can be divided into 2 sets, such that all the edges can be formed by selecting a vertex from each of the sets
@@ -7,8 +8,8 @@
 
 T(C)- O(MXN)
 S(C)- O(MXN) - Queue, grid, Color map
+*/
 
-CODE:
 
 class Solution {
 public:
